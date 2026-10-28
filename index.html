@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Greeting — Personal TikTok Publishing Tool</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 56px 24px 96px; color: #16181f; }
+  @media (prefers-color-scheme: dark) { body { background:#141726; color:#e7e7ee; } a { color:#9fb4ff; } }
+  h1 { font-size: 2.1rem; letter-spacing: -0.02em; margin: 0 0 0.3em; }
+  .lede { font-size: 1.1rem; color: #4b5563; }
+  @media (prefers-color-scheme: dark) { .lede { color:#a9aec4; } }
+  h2 { font-size: 1.1rem; margin-top: 2.2em; }
+  ul { padding-left: 1.2em; }
+  .card { border: 1px solid rgba(128,128,128,0.25); border-radius: 14px; padding: 18px 20px; margin-top: 20px; }
+  footer { margin-top: 4em; font-size: 0.85rem; color: #6b7280; }
+</style>
+</head>
+<body>
+<h1>Greeting</h1>
+<p class="lede">A personal publishing tool that uploads my finished videos to my own TikTok account.</p>
+
+<h2>What it does</h2>
+<div class="card">
+  <ul>
+    <li>Connects to a single TikTok account through TikTok's official OAuth flow.</li>
+    <li>Uploads video files I select from my own machine using TikTok's Content Posting API.</li>
+    <li>Shows the upload status and the returned post ID so I know the post succeeded.</li>
+  </ul>
+</div>
+
+<h2>What it does not do</h2>
+<ul>
+  <li>It does not post to accounts I have not authorised.</li>
+  <li>It does not generate, scrape, or source content on its own.</li>
+  <li>It does not collect analytics, run ads, or share data with third parties.</li>
+</ul>
+
+<h2>Legal</h2>
+<p>
+  <a href="./terms.html">Terms of Service</a> &nbsp;·&nbsp;
+  <a href="./privacy.html">Privacy Policy</a>
+</p>
+
+<footer>Greeting · operated by the Greeting developer account · <a href="mailto:linna007@gmail.com">linna007@gmail.com</a></footer>
+</body>
+</html>
